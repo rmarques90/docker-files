@@ -1,0 +1,49 @@
+{
+ "rabbit_version": "3.8.3",
+ "users": [
+  {
+   "name": "admin",
+   "password": "admin123!!",
+   "tags": "administrator"
+  }
+ ],
+ "vhosts": [
+  {
+   "name": "\/"
+  },
+  {
+   "name": "\/prod"
+  },
+  {
+   "name": "\/dev"
+  }
+ ],
+ "permissions": [
+  {
+   "user": "admin",
+   "vhost": "\/",
+   "configure": ".*",
+   "write": ".*",
+   "read": ".*"
+  },
+  {
+   "user": "admin",
+   "vhost": "\/prod",
+   "configure": ".*",
+   "write": ".*",
+   "read": ".*"
+  },
+  {
+   "user": "admin",
+   "vhost": "\/dev",
+   "configure": ".*",
+   "write": ".*",
+   "read": ".*"
+  }
+ ],
+ "parameters": [],
+ "policies": [],
+ "queues": [],
+ "exchanges": [],
+ "bindings": []
+}
