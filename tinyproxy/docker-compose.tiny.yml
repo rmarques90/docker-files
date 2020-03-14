@@ -1,0 +1,10 @@
+version: "3.7"
+services:
+  app:
+    image: tiny:1.0
+    ports:
+      - 8888:8888
+    volumes:
+      - type: bind
+        source: ./tinyproxy.conf
+        target: /etc/tinyproxy/tinyproxy.conf
