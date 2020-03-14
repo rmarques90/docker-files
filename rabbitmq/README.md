@@ -1,6 +1,6 @@
 ## RabbitMQ
 
-RabbitMQ with default definitions.
+RabbitMQ with personalized default definitions.
 
 - Ports:
 -- 15672 for administration
